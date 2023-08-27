@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Notepad & Draft</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./3176195.png" alt="">
+            <h1 id="app-title">Shopping List</h1>
+        </header>
+
+        <form action="" id="item-form">
+            <div class="form-control">
+                <input type="text" class="form-input" id="item-input" name="item" placeholder="Enter item">
+            </div>
+
+         
+
+            <div class="form-control">
+                <button type="submit" class="btn"> 
+                    <i class="fa-solid fa-plus"></i>
+                    Add Item
+                </button>
+            </div>
+        </form>
+
+        <div class="filter" id="filter">
+            <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items">
+        </div>
+
+        <ul id="item-list" class="items">
+            <!-- <li class="item">
+                Apples
+                <button class="remove-item btn-link text-red">
+                    <i class='bx bxs-x-circle'></i>
+                </button>
+            </li>
+
+            <li class="item">
+                Apple Juice
+                <button class="remove-item btn-link text-red">
+                    <i class='bx bxs-x-circle'></i>
+                </button>
+            </li>
+
+            <li class="item">
+                Eggs
+                <button class="remove-item btn-link text-red">
+                    <i class='bx bxs-x-circle'></i>
+                </button>
+            </li>
+
+            <li class="item">
+                Eggnog
+                <button class="remove-item btn-link text-red">
+                    <i class='bx bxs-x-circle'></i>
+                </button>
+            </li>
+
+            <li class="item">
+                Milk
+                <button class="remove-item btn-link text-red">
+                    <i class='bx bxs-x-circle'></i>
+                </button>
+            </li>
+
+            <li class="item">
+                Milk Shaker
+                <button class="remove-item btn-link text-red">
+                    <i class='bx bxs-x-circle'></i>
+                </button>
+            </li> -->
+
+        
+        </ul>
+        <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+   
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
